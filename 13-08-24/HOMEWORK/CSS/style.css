@@ -1,0 +1,37 @@
+*{
+    font-size: large;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align:center;
+   
+}
+.firstTable, .secondTable{
+    border: 1px solid black; 
+    table-layout:fixed;
+    tab-size: 100cm;
+    width: 95%;
+    margin: 0 auto;
+ }
+.nos1{
+ background-color: rgb(9, 195, 237);
+}
+/* --Here I am Using the Combinator Selector and then called the id of h and he */
+#h, #he{
+    background-color: rgb(21, 181, 181);
+}
+#sblock{
+    background-color:rgb(225, 69, 121) ;
+}
+#pblock{
+   background-color: rgb(220, 220, 97); 
+}
+#dblock{
+    background-color: rgb(25, 104, 221);
+}
+
+.LatoLu{
+    background-color: rgb(237, 70, 9)
+}
+.Actolr{
+    background-color: rgb(12, 180, 51);
+}

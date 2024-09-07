@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            border: 1px solid #ccc;
+            padding: 10px;
+            width: 500px;
+            margin: 20px auto;
+        }
+        table {
+            border-collapse: collapse;
+            border: 1px solid #ccc;
+        }
+        th, td {
+            align-items: center;
+            border: 1px solid #ccc;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>Department List</h1>
+        <table>
+            <tbody>
+                <tr>
+                    <th colspan="2">Search</th>
+                    <th  colspan= "5">
+                        <select name="management" id="management">
+                            <option value="" disabled selected>-Management-</option>
+                            <option value="management">management</option>
+                            <option value="feedback">feedback</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </th>
+                </tr>
+                <tr>
+                    <th>ID</th>
+                    <th>Department Name</th>
+                    <th>Address</th>
+                    <th>Description</th>
+                    <th>Update</th>
+                    <th>Delete</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Kitchen</td>
+                    <td>Mumbai</td>
+                    <td>Manage all the things related to the Kitchen</td>
+                    <td><a href="#">Update</a></td>
+                    <td><input type="button" value="Delete" /></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>HR</td>
+                    <td>Delhi</td>
+                    <td>Manage all the things related to the HR</td>
+                    <td><a href="#">Update</a></td>
+                    <td><input type="button" value="Delete" /></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>IT</td>
+                    <td>Bangalore</td>
+                    <td>Manage all the things related to the IT</td>
+                    <td><a href="#">Update</a></td>
+                    <td><input type="button" value="Delete" /></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Finance</td>
+                    <td>Chennai</td>
+                    <td>Manage all the things related to the Finance</td>
+                    <td><a href="#">Update</a></td>
+                    <td><input type="button" value="Delete" /></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Marketing</td>
+                    <td>Kolkata</td>
+                    <td>Manage all the things related to the Marketing</td>
+                    <td><a href="#">Update</a></td>
+                    <td><input type="button" value="Delete" /></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

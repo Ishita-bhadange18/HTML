@@ -1,0 +1,78 @@
+*{
+    font-family:dm-serif-text-regular;
+    margin:0px auto;
+}
+.dm-serif-text-regular {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .dm-serif-text-regular-italic {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  /* Hero section 1 st Section */
+  .hero{
+    background-image: url(/images/Background/hero-bg.jpg );
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+  }
+#navbar{
+ text-align: left;
+ display: inline;
+ margin: 20px;
+ list-style-position: inside;
+
+}
+
+/*Service Section 2 nd Section */
+
+.Service{
+  background-image: url(/images/Background/us-bg.jpg );
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+  color: white;
+}
+
+/* -Healthy mind & body- 3 rd Section */
+.Healthy{
+  background-image: url(/images/Background/healthy-bg.jpg );
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+  color: white;
+}
+
+/*  TRAINER 4th section  */
+.TRAINERS{
+  background-image: url(/images/Background/trainer-bg.jpg);
+  background-position:50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+  color: white;
+}
+.Contact{
+  background-image: url(/images/Background/contact-img.jpg);
+  background-size:500px 400px;
+  background-repeat: no-repeat;
+  text-align: right;
+}
+.Vist{
+  background-color: rgb(10, 1, 23);
+  display:block;
+  text-align: center;
+  
+}
+footer{
+  text-align: center;
+  background-color: white;
+  
+}

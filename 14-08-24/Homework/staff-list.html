@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            border: 1px solid black;
+            padding: 10px;
+            width: 800px;
+            margin: 20px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>Staff List</h1>
+        <table>
+            <tbody>
+                <tr>
+                    <th colspan="2">Search</th>
+                    <th colspan="5">
+                        <select name="department" id="department">
+                            <option value disabled selected>-Select Option-</option>
+                            <option value>Management</option>
+                            <option value>feedback</option>
+                            <option value>Other</option>
+                        </select>
+                    </th>
+                </tr>
+                <tr>
+                    <th>No.</th>
+                    <th>Full Name</th>
+                    <th>Department</th>
+                    <th>Branch</th>
+                    <th>Email</th>
+                    <th>Phone Number</th>
+                    <th>Actions</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Rakesh Akash Sachdeva</td>
+                    <td>Kitchen</td>
+                    <td>Banglore</td>
+                    <td>rakesh.sachdeva@email.com</td>
+                    <td>7983356602</td>
+                    <td><input type="button" value="Delete"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

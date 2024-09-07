@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picture</title>
+</head>
+<body>
+    <!--Picture of Home-->
+    <picture>
+           <!--Picture Mode IS PC/Laptop--> 
+        <source srcset="https://images.pexels.com/photos/301920/pexels-photo-301920.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" media="(min-width:1200px)">
+        
+           <!--Picture Mode IS Tablet--> 
+        <source srcset="https://images.pexels.com/photos/313690/pexels-photo-313690.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" media="(min-width:768px)">
+        
+           <!--Picture Mode IS Mobile--> 
+           <img src="https://images.pexels.com/photos/1925536/pexels-photo-1925536.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="600" alt="study">
+    </picture>
+</body>
+</html>

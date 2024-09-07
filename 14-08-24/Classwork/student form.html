@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student login form</title>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <hr>
+    <h3><mark>General Information</mark></h3>
+    <form action="" method="post">
+        <hr>
+        <button type="button">Privious Page</button>
+        <button type="reset">Clear</button>
+        <br><br>
+        <label for="user">Student Name* :</label>
+        <input type="text" name="username" id="user" placeholder="Enter Full Name" required>
+        <br><br>
+        <label for="Email">Email* :</label>
+        <input type="email" name="Email" id="Email" placeholder="Enter Your Email" required>
+        <br><br>
+        <label for="number">Phone No* :</label>
+        <input type="tel" name="phone" id="number" placeholder="Enter Phone Number" maxlength="10" required>
+        <br><br>
+        <label for="pass">Password* :</label>
+        <input type="password" name="pass" id="pass" placeholder="Enter Your Password" required>
+        <br><br>
+        <label for="birth date">Birth Date* :</label>
+        <input type="date" name="birthdate" id="birthdate" required>
+        <br><br>
+        <label for="gender">Gender* :</label>
+        <br>
+        <label><input type="radio" name="gender" id="Male" value="M">Male</label>
+        <label><input type="radio" name="gender" id="Female" value="F">female</label>
+        <label><input type="radio" name="gender" id="Other" value="o">Other</label>
+        <br><br>
+        <label for="Student id">Student id*:</label>
+        <input type="number" name="Student_id" id="Student_id" placeholder="Enter your id" maxlength="5" required>
+        <br><br>
+        <label for="Addmission date">Addmission Date</label>
+        <input type="month" id="month" name="month" required>
+        <br><br>
+        <label>Enter year</label>
+        <select name="year" id="year" required>
+        <option value disabled selected>-Select Year-</option>
+        <option value="First year">First year</option>
+        <option value="Second year">Second year</option>
+        <option value="Third year">Third year</option>
+        <option value="Fourth year">Fourth year</option>
+        </select>
+        <br><br>
+        <label for="branch">Branch* :</label><br>
+        <input type="checkbox" name="branch" id="Computer" value="Computer">
+        <label for="Computer">Computer</label>
+        <br>
+        <input type="checkbox" name="branch" id="IT" value="IT">
+        <label for="IT">IT</label>
+        <br>
+        <input type="checkbox" name="branch" id="Entc" value="Entc">
+        <label for="Entc">Entc</label>
+        <br>
+        <input type="checkbox" name="branch" id="Mechanical" value="Mechanical">
+        <label for="Mechanical">Mechanical</label>
+       
+        <br><br>
+        <label for="Addmission date">Passout year*:</label>
+        <input type="month" name="passoutyear" id="passoutyear" placeholder="passoutyear" required>
+        <br><br>
+        <label for="address">Address* :</label>
+        <textarea name="address" id="address" cols="30" rows="5" placeholder ="Enter Your detail address & Pincode" required></textarea>
+        <br><br>
+        
+        
+        <button type="submit">Log In</button>       
+        <button type="reset">Clear</button>
+        <button type="button">Print</button>
+        <br><br>
+       
+    </form>
+
+</body>
+</html>
