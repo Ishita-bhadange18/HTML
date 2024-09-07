@@ -1,7 +1,7 @@
 ## Html ##
 
--basics tags 
+- basics tags ,synatax ,table elements ,button tags
 -attributes 
--student login form
--text document 
+- Student login form
+- text document 
 - anchor tags
